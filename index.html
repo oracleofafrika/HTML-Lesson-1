@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .nav-link {
+            font-size: 24px;
+            color: aqua;
+        }
+    </style>
 </head>
 <body>
     
@@ -12,23 +18,58 @@
 
 
 <header>
-    <h1>Genius Tech Hub</h1>
+    <h1 style="color: aqua; font-size: 48px; font-weight: 700;">Genius Tech Hub</h1>
 <nav>
-    <a href>Blog</a>
-    <a href>Challenges</a>
-    <a href>Flexbox</a>
-    <a href>CSS Grid</a>
+    <a class="nav-link" href>Blog</a>
+    <a class="nav-link" href>Challenges</a>
+    <a class="nav-link" href>Flexbox</a>
+    <a class="nav-link" href>CSS Grid</a>
+
+
 </nav>
-    <h2>The Basic Language of the web: HTML</h2>
-    <img src="Laura  Jones.jpg" width="30" height="30">
-    <p>Posted by Laura Jones on Monday, Mar 10th 2025</p>
-    <img src="img/love emoji.jpg" width="150" height="70">
+    <h2><a class="nav-link">Basic Language of the web: HTML</a></h2>
+    <img src="Laura  Jones.jpg" width="50" height="50">
+    <p>Posted by Laura Jones on Monday, June 21st 2027</p>
+    <img src="img/markup.jpg" width="150" height="70">
     <main>
         <article>
             <p>All modern websites and web applications are built using three fundamentaltechnologies: HTML, CSS, and JavaScript</p>
             <p>In this post, let's focus on HTML. We will learn what HTML is all about, and you too should learn it.</p>
         </article>
     </main>
+    <h2><a class="nav-link">What is HTML?</a></h2>
+    <p>HTML stands for Hyper Text Markup Language. It's a markup language that web developers use to structure and describe the content of a webpage(not a programming language).</p>
+    <p>HTML consists of elements that describe different types of content paragraph, links, headings, images, video, etc. Web browsers understand HTML and render HTML code as websites.</p>
+    <p>In HTML each element is made up of 3 parts:</p>
+    <ul>
+        <li>The opening tag</li>
+        <li>The closing tag</li>
+        <li>The actual element</li>
+    </ul>
+    <p>You can learn more at <a href="#" <a class="nav-link">MDN Web Docs</a>.</p>
+
+    <h2><a class="nav-link">Why should you learn HTML?</a></h2>
+    <p>There are countless reasons for learning the fundamental language of the web. Here are 5 of them:</p>
+    <ul>
+        <li>To be able to use the fundamental web dev language</li>
+        <li>To hand-craft beautiful websites instead of relying on tools like WordPress or Wix</li>
+        <li>To build web applications</li>
+        <li>To impress friends</li>
+        <li>To have fun</li>
+    </ul>
+
+    <p>Hopefully, you learn something new here. See you next time!</p>
+
+    <div class="related-posts">
+        <h2>RELATED POSTS</h2>
+        <ul>
+            <li><a href="#"> <img src="img/Jonas.jpg" width="50" height="50" alt="User Image"><a class="nav-link">How to Learn Web Development</a> <em>By Jonas Schmedtmann</em></li>
+            <li><a href="#"> <img src="img/Thunder.jpg" width="50" height="50" alt="User Image"><a class="nav-link">The Unknown Power of CSS</a> <em>By Jim Dillon</em></li>
+            <li><a href="#"> <img src="img/Java pic.png" width="50" height="50" alt="User Image"><a class="nav-link">Why JavaScript is Awesome</a> <em>By Matilda</em></li>
+        </ul>
+    </div>
+
+    <p>&copy; 2027 by Genius Tech Hub.</p>
 </header>
 
 </body>
